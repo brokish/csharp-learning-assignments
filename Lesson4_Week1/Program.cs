@@ -1,8 +1,17 @@
 ﻿using Homework.Helpers;
 using Lesson4_Week1.Tasks;
 
+
 SharedUtils.InitializeConsole();
 
-Console.WriteLine("სალაამ!");
+// Task1 
+Lesson4Tasks.PrintMatrix();
 
-Lesson4Tasks.Task();
+//Task2
+Lesson4Tasks.CalculateMatrixSum();
+
+//Task3
+Lesson4Tasks.FindMaxElement();
+
+//Task4
+Lesson4Tasks.CountEvenNumbers();
