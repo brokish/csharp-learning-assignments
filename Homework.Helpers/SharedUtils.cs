@@ -18,6 +18,16 @@
             return int.Parse(input);
         }
 
+        public static double ParseStringToDouble(string? input)
+        {
+            while (string.IsNullOrEmpty(input) || !double.TryParse(input, out _))
+            {
+                Console.WriteLine("ტექსტის რიცხვად გარდაქმნა ვერ მოხერხდა. სცადეთ ახლიდან:");
+                input = Console.ReadLine();
+            }
+            return double.Parse(input);
+        }
+
         public static bool IsNull(int[,] numbers)
         {
             if (numbers == null)

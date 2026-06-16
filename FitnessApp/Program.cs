@@ -1,5 +1,11 @@
 ﻿using FitnessApp.Services;
 using Homework.Helpers;
 
-SharedUtils.InitializeConsole();
-TemperatureCalculator.returnCorrectTemperature();
+internal class Program
+{
+    public static void Main(string[] args)
+    {
+        SharedUtils.InitializeConsole();
+        SpaApp.run();
+    }
+}
