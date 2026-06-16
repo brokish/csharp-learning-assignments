@@ -12,7 +12,7 @@ public static class TemperatureCalculator
         while (temperatureInCelsius != "C" && temperatureInCelsius != "F")
         {
             Console.WriteLine("გთხოვთ შეიყვანოთ სწორი ტემპერატურის ერთეული");
-            temperatureInCelsius = Console.ReadLine();
+            temperatureInCelsius = Console.ReadLine().ToUpper();
 
         }
  
