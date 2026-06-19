@@ -17,7 +17,7 @@ public class MainApp
         Console.Write("შეიყვანეთ მეორე დღის წვა ლიტრში ");
         double day2 = SharedUtils.ParseStringToDouble(Console.ReadLine());
 
-        Console.Write("შეიყვანეთ მესამე დღის წვა ლიტრში");
+        Console.Write("შეიყვანეთ მესამე დღის წვა ლიტრში ");
         double day3 = SharedUtils.ParseStringToDouble(Console.ReadLine());
 
         double averageLiter = CarFuelAnalytic.CalculateAverage(day1, day2, day3);
