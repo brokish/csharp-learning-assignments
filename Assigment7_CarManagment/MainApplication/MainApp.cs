@@ -41,9 +41,9 @@ public class MainApp
 
     public void printSwapRepParams()
     {
-
-        int firstParam = 10;
-        int secondParam = 20;
+        Console.WriteLine("შეიყვანეთ პირველი პარამეტრი");
+        int firstParam = SharedUtils.ParseStringToInt(Console.ReadLine());
+        int secondParam = SharedUtils.ParseStringToInt(Console.ReadLine());
 
         Console.WriteLine($"პირველადი  პარამეტრები არის: firstParam = {firstParam}, secondParam = {secondParam}");
 
