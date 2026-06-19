@@ -8,6 +8,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarRentApp", "CarRentApp\Ca
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpaApp", "SpaApp\SpaApp.csproj", "{6E724BEE-D079-4E6E-BC52-EFB0BFA6D982}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assigment7_CarManagment", "Assigment7_CarManagment\Assigment7_CarManagment.csproj", "{5AE1D4D8-D9CD-4816-923F-535055941C72}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,5 +32,9 @@ Global
 		{6E724BEE-D079-4E6E-BC52-EFB0BFA6D982}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6E724BEE-D079-4E6E-BC52-EFB0BFA6D982}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6E724BEE-D079-4E6E-BC52-EFB0BFA6D982}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5AE1D4D8-D9CD-4816-923F-535055941C72}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5AE1D4D8-D9CD-4816-923F-535055941C72}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5AE1D4D8-D9CD-4816-923F-535055941C72}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5AE1D4D8-D9CD-4816-923F-535055941C72}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
