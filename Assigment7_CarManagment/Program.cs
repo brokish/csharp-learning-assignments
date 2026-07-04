@@ -5,11 +5,11 @@ SharedUtils.InitializeConsole();
 MainApp mainApp = new MainApp();
 
 
-mainApp.FuelTracking();
+
 
 // mainApp.ParkingPayment();
 
-// mainApp.printSwapRepParams();
+mainApp.printSwapRepParams();
 
 
 
