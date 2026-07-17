@@ -3,5 +3,5 @@ using Homework.Helpers;
 
 SharedUtils.InitializeConsole();
 
-RentApp rentApp = new RentApp();
+var rentApp = new RentApp();
 rentApp.CarRentApplication();

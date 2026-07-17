@@ -8,12 +8,12 @@ public class AreaCalculatorApp
     public void Run()
     {
         Console.Write("შეიყვანეთ რადიუსი");
-        
-        double radius = SharedUtils.ParseStringToDouble(Console.ReadLine());
 
-        AreaCalculator myCircle = new AreaCalculator(radius);
+        var radius = SharedUtils.ParseStringToDouble(Console.ReadLine());
 
-        double areaResult = myCircle.CalculateArea();
+        var myCircle = new AreaCalculator(radius);
+
+        var areaResult = myCircle.CalculateArea();
 
         Console.WriteLine($"ფართობი არის : {areaResult}");
     }

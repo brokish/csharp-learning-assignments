@@ -1,52 +1,56 @@
-﻿namespace Homework.Helpers
+﻿using System.Text;
+
+namespace Homework.Helpers;
+
+public class SharedUtils
 {
-    public class SharedUtils
+    public static void InitializeConsole()
     {
-        public static void InitializeConsole()
+        Console.OutputEncoding = Encoding.UTF8;
+        Console.InputEncoding = Encoding.UTF8;
+    }
+
+    public static int ParseStringToInt(string? input)
+    {
+        while (string.IsNullOrEmpty(input) || !int.TryParse(input, out _))
         {
-            Console.OutputEncoding = System.Text.Encoding.UTF8;
-            Console.InputEncoding = System.Text.Encoding.UTF8;
+            Console.WriteLine("ტექსტის რიცხვად გარდაქმნა ვერ მოხერხდა. სცადეთ ახლიდან:");
+            input = Console.ReadLine();
         }
 
-        public static int ParseStringToInt(string? input)
+        return int.Parse(input);
+    }
+
+    public static double ParseStringToDouble(string? input)
+    {
+        while (string.IsNullOrEmpty(input) || !double.TryParse(input, out _))
         {
-            while (string.IsNullOrEmpty(input) || !int.TryParse(input, out _))
-            {
-                Console.WriteLine("ტექსტის რიცხვად გარდაქმნა ვერ მოხერხდა. სცადეთ ახლიდან:");
-                input = Console.ReadLine();
-            }
-            return int.Parse(input);
+            Console.WriteLine("ტექსტის რიცხვად გარდაქმნა ვერ მოხერხდა. სცადეთ ახლიდან:");
+            input = Console.ReadLine();
         }
 
-        public static double ParseStringToDouble(string? input)
+        return double.Parse(input);
+    }
+
+    public static bool IsNull(int[,] numbers)
+    {
+        if (numbers == null)
         {
-            while (string.IsNullOrEmpty(input) || !double.TryParse(input, out _))
-            {
-                Console.WriteLine("ტექსტის რიცხვად გარდაქმნა ვერ მოხერხდა. სცადეთ ახლიდან:");
-                input = Console.ReadLine();
-            }
-            return double.Parse(input);
+            Console.WriteLine("მონაცემები ვერ მოიძებნა (Null)!");
+            return true;
         }
 
-        public static bool IsNull(int[,] numbers)
+        return false;
+    }
+
+    public static bool IsEmpty(int[,] numbers)
+    {
+        if (numbers.Length == 0)
         {
-            if (numbers == null)
-            {
-                Console.WriteLine("მონაცემები ვერ მოიძებნა (Null)!");
-                return true;
-            }
-            return false;
+            Console.WriteLine("მასივი ცარიელია!");
+            return true;
         }
 
-        public static bool IsEmpty(int[,] numbers)
-        {
-            if (numbers.Length == 0)
-            {
-                Console.WriteLine("მასივი ცარიელია!");
-                return true;
-            }
-            return false;
-        }
-        
+        return false;
     }
 }

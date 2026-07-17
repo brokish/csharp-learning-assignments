@@ -2,10 +2,9 @@
 using Homework.Helpers;
 
 SharedUtils.InitializeConsole();
-DistanceTrackingApp app = new DistanceTrackingApp();
-AreaCalculatorApp areaApp = new AreaCalculatorApp();
-MoneyApp  moneyApp = new MoneyApp();
-
+var app = new DistanceTrackingApp();
+var areaApp = new AreaCalculatorApp();
+var moneyApp = new MoneyApp();
 
 
 app.Run();

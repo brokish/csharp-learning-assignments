@@ -1,16 +1,17 @@
 ﻿namespace CarRentApp;
 
 public class Car
-{   
+{
     public string CarModel;
-    public int Year;
-    public int PricePerDay;
     public int dayRange;
+    public int PricePerDay;
+    public int Year;
+
     public Car(string carModel, int year, int pricePerDay, int dayRange)
     {
-        this.CarModel = carModel; 
-        this.Year = year;
-        this.PricePerDay = pricePerDay;
+        CarModel = carModel;
+        Year = year;
+        PricePerDay = pricePerDay;
         this.dayRange = dayRange;
     }
 
@@ -20,7 +21,5 @@ public class Car
         Console.WriteLine($"მანქანის წლოვანება: {Year} ");
         Console.WriteLine($"რამდენი დღით გსურთ ქირაობა: {dayRange} ");
         Console.WriteLine($"ჯამური გადასახდელი თანხა: {PricePerDay} ");
-       
     }
-
 }

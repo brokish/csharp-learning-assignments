@@ -8,6 +8,6 @@ public class Students
 
     public override string ToString()
     {
-        return $"{this.Name}, {this.Age}";
+        return $"{Name}, {Age}";
     }
 }

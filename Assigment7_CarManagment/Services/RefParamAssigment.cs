@@ -4,7 +4,7 @@ public class RefParamAssigment
 {
     public void SwapNumbers(ref int a, ref int b)
     {
-        int temp = a;
+        var temp = a;
         a = b;
         b = temp;
     }

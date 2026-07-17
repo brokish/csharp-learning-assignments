@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace FitnessApp.PartialClasses;
+﻿namespace FitnessApp.PartialClasses;
 
 public partial class Customers
 {
