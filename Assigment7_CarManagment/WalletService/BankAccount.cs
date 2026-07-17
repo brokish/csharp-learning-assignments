@@ -2,20 +2,15 @@
 
 public class BankAccount
 {
-
-
     private double balance;
-   
+
     public void Deposit(double amount)
     {
         balance = balance + amount;
     }
 
-    public  void ShowBalance()
+    public void ShowBalance()
     {
-        Console.WriteLine(balance);  
-      
+        Console.WriteLine(balance);
     }
-    
- 
 }

@@ -2,15 +2,9 @@
 using Homework.Helpers;
 
 SharedUtils.InitializeConsole();
-MainApp mainApp = new MainApp();
-
-
+var mainApp = new MainApp();
 
 
 // mainApp.ParkingPayment();
 
 mainApp.printSwapRepParams();
-
-
-
-

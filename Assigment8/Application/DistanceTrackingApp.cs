@@ -11,15 +11,15 @@ public class DistanceTrackingApp
         Console.WriteLine("1 - კილომეტრიდან მილში");
         Console.WriteLine("2 - მილიდან კილომეტრში");
 
-        int choice = SharedUtils.ParseStringToInt(Console.ReadLine());
+        var choice = SharedUtils.ParseStringToInt(Console.ReadLine());
 
         if (choice == 1)
         {
             Console.Write("შეიყვანეთ კილომეტი");
 
-            double kilometer = SharedUtils.ParseStringToDouble(Console.ReadLine());
+            var kilometer = SharedUtils.ParseStringToDouble(Console.ReadLine());
 
-            double result = Converter.KmToMiles(kilometer);
+            var result = Converter.KmToMiles(kilometer);
 
             Console.WriteLine(result);
         }
@@ -33,12 +33,12 @@ public class DistanceTrackingApp
         }
     }
 
-    public void MilesToKilometer() 
+    public void MilesToKilometer()
     {
         Console.WriteLine("შეიყვანეთ მილი");
-        double mile = SharedUtils.ParseStringToDouble(Console.ReadLine());
+        var mile = SharedUtils.ParseStringToDouble(Console.ReadLine());
 
-        double result = Converter.MileToKm(mile);
+        var result = Converter.MileToKm(mile);
         Console.WriteLine(result);
     }
 }

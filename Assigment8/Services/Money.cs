@@ -21,10 +21,7 @@ public class Money
 
     public static bool operator ==(Money m1, Money m2)
     {
-        if (ReferenceEquals(m1, null) || ReferenceEquals(m2, null))
-        {
-            return ReferenceEquals(m1, m2);
-        }
+        if (ReferenceEquals(m1, null) || ReferenceEquals(m2, null)) return ReferenceEquals(m1, m2);
         return m1.Amount == m2.Amount;
     }
 

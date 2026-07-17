@@ -16,6 +16,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assigment9_library", "Assig
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assigment_10", "Assigment_10\Assigment_10.csproj", "{1A8510BE-E19E-4DAE-B432-B84B5908B4E5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assigment12-Exeptions", "Assigment12-Exeptions\Assigment12-Exeptions.csproj", "{F521ED54-3316-4630-B2C2-45884AB284B1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -54,5 +56,9 @@ Global
 		{1A8510BE-E19E-4DAE-B432-B84B5908B4E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1A8510BE-E19E-4DAE-B432-B84B5908B4E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1A8510BE-E19E-4DAE-B432-B84B5908B4E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F521ED54-3316-4630-B2C2-45884AB284B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F521ED54-3316-4630-B2C2-45884AB284B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F521ED54-3316-4630-B2C2-45884AB284B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F521ED54-3316-4630-B2C2-45884AB284B1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

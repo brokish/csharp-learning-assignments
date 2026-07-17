@@ -1,7 +1,6 @@
 ﻿using Homework.Helpers;
 using Lesson4_Week1.Tasks;
 
-
 SharedUtils.InitializeConsole();
 
 // Task1 

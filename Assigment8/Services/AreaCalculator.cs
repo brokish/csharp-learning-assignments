@@ -12,7 +12,7 @@ public class AreaCalculator
 
     public double CalculateArea()
     {
-        double area = P * Radius * Radius;
+        var area = P * Radius * Radius;
         return area;
     }
 }
